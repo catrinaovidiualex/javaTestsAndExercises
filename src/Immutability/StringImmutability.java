@@ -14,7 +14,7 @@ public final class StringImmutability {
         this.name = name;
         this.destination = destination;
     }
-
+    // method that return a new Object - rule number 3
     public StringImmutability explorer(){
         return new StringImmutability(name,destination.OUTER_SPACE);
     }
