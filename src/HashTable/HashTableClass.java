@@ -15,5 +15,22 @@ public class HashTableClass {
         for (Map.Entry m : ht.entrySet()) {
             System.out.println(m.getKey() + " " + m.getValue());
         }
+
+        //show the value of key = 102 from hash table
+        System.out.println(ht.get(102));
+
+        // show the numbers of elemnts from HashTable
+        System.out.println(ht.size());
+
+        // add more elements into hash table
+        ht.put(200,"Alex");
+        ht.put(203,"Mihai Florin");
+        System.out.println(ht);
+
+
+
+
     }
+
+
 }
