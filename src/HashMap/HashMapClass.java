@@ -51,5 +51,9 @@ public class HashMapClass {
         // show all the values from hshmap
         System.out.println(userInfo.values());
 
+        // clear hash map
+       hp.clear();
+       System.out.println(hp);
+
     }
 }
