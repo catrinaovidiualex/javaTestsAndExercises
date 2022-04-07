@@ -9,6 +9,9 @@ public class BankAccountDemo {
         BankAccount b= new BankAccount();
         b.setBalance(200.45);
 
+        BankAccount c= new BankAccount();
+        c.setBalance(666.999);
+
         System.out.println("First: $"+a.getBalance());
         System.out.println("Second: $"+b.getBalance());
 

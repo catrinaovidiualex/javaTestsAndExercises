@@ -44,6 +44,7 @@ public class SetExamples {
         myTreeSet.add("2");
         myTreeSet.add("31");
         myTreeSet.add("-81");
+        myTreeSet.add("2");
 
 
        // iterate TreeSet using iterator

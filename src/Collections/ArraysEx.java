@@ -32,6 +32,7 @@ public class ArraysEx {
        System.out.println(list_Strings.get(1));
        list_Strings.remove(3);
 
+
        // update the second element
         list_Strings.set(2,"Grey");
 
