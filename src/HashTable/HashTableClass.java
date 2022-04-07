@@ -52,7 +52,7 @@ public class HashTableClass {
 
 
 // Hashtable enumeration Example
-// hashtabl.elements() return enumeration of all hashtable values
+// hashtable.elements() return enumeration of all hashtable values
         Enumeration enumeration = companies.elements();
 
         while (enumeration.hasMoreElements()) {
@@ -62,8 +62,7 @@ public class HashTableClass {
 
 
 // How to check if Hashtable is empty in Java
-// use isEmpty method of hashtable to check emptiness of hashtable in
-// Java
+// use isEmpty method of hashtable to check emptiness of hashtable in Java
         System.out.println("Is companies hashtable empty: "
                 + companies.isEmpty());
 
@@ -74,8 +73,7 @@ public class HashTableClass {
 
 
 // How to get all values form hashtable in Java
-// you can use keySet() method to get a Set of all the keys of hashtable
-// in Java
+// you can use keySet() method to get a Set of all the keys of hashtable in Java
         Set hashtableKeys = companies.keySet();
 
 
@@ -94,9 +92,11 @@ public class HashTableClass {
 
 
 // Hashtable clear example
-// by using clear() we can reuse an existing hashtable, it clears all
-// mappings.
+// by using clear() we can reuse an existing hashtable, it clears all mappings.
         companies.clear();
+
+       String test="testare";
+        System.out.println(test.hashCode());
 
     }
 
