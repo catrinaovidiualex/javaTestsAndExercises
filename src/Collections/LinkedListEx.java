@@ -13,6 +13,7 @@ public class LinkedListEx {
         // create an empty LinkedList
 
         LinkedList<String> newList = new LinkedList<String>();
+        LinkedList<String> newList2= new LinkedList<String>();
 
         //append or add elements in the list
 
@@ -24,13 +25,22 @@ public class LinkedListEx {
         newList.add("White");
         newList.add("Pink");
 
+        newList2.add("VW Pasat");
+        newList2.add("Cielo");
+        newList2.add("Renault Megan");
+
         System.out.println(newList);
+        System.out.println(newList2);
 
         // iterate through all elements in a linked list
 
         System.out.println("Elements of the linkedList are:");
         for(String el:newList){
             System.out.println(el);
+        }
+
+        for(String elem: newList2){
+            System.out.println(elem);
         }
 
         // iterate all elements in a linked list but in reverse order
