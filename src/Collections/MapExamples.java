@@ -10,6 +10,7 @@ public class MapExamples {
         Customer customer1= new Customer(123,"Diana Anderson");
         Customer customer2 = new Customer(546,"John Anderson");
         Customer customer3 = new Customer(893,"Alex Ovidiu");
+
         // add elements in the map: map.put(key,value);
         map.put("xxx",customer1);
         map.put("yyy",customer2);

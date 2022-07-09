@@ -71,6 +71,11 @@ public class LinkedListEx {
         System.out.println("List's elements after inserting new items:");
         System.out.println(newList);
 
+        newList2.addFirst("First car");
+        newList2.addLast("Last car from the list");
+
+        System.out.println(newList2);
+
         // get the first and last occurrence of the specified elements in a linked list
         String firstElement=newList.getFirst();
         String lastElement=newList.getLast();
@@ -80,6 +85,9 @@ public class LinkedListEx {
         //remove a specified element from a linked list
         newList.remove("Green");
         System.out.println("List after deletion of the element:"+newList);
+
+        newList2. remove("Cielo");
+        System.out.println("List after deletion of car:"+newList2);
 
         // delete first and last elements from the list;
         String deleteFirst=newList.removeFirst();

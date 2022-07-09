@@ -5,13 +5,16 @@ import java.util.List;
 
 public class BoxingAndUnboxing {
     public static void main(String[] args) {
-        //Boxing or Autoboxing
+        //Boxing or autoboxing
 
         List<Integer> myIntegerList= new ArrayList<>();
         for(int i=1; i<=10;i++){
             myIntegerList.add(i);
 
-            // using autoboxing -> it can be written as below (it's the same syntax):
+
+        //UnBoxing -> converting an object into corresponding primitive datatype
+
+
 
             myIntegerList.add(Integer.valueOf(i));
         }

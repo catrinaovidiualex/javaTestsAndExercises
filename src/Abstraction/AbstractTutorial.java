@@ -1,7 +1,7 @@
 package Abstraction;
 
-abstract class dog{
-    //An abstract class helps make regular classes
+abstract class dog {
+    //An abstract class helps make regular classes;
     String breed;
 
     //normal method
@@ -36,6 +36,8 @@ class Husky extends dog{
     public void sing(){
         System.out.println("Husky sings");
     }
+
+
 }
 
 public class AbstractTutorial {

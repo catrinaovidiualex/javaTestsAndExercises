@@ -15,11 +15,11 @@ public class HashMapClass {
         hp.put("b",3);
         hp.put("c",88);
         System.out.println(hp);
-        //retrun value of "c" key
+        //return value of "c" key
 
         System.out.println(hp.get("c"));
 
-        // Create a HasHMap for  sotring user and password
+        // Create a HasHMap for  sorting user and password
 
         HashMap<String,String> userInfo= new HashMap<String,String>();
         userInfo.put("AlexOvidiu","ocatrina.2022");
@@ -48,7 +48,7 @@ public class HashMapClass {
 
         System.out.println(userInfo);
 
-        // show all the values from hshmap
+        // show all the values from hashmap
         System.out.println(userInfo.values());
 
         // clear hash map
