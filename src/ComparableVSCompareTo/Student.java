@@ -57,6 +57,7 @@ public class Student implements Comparable <Student>{
         Student s1= new Student(110,"Popescu Ion");
         Student s2 = new Student (102,"Ionescu Maria");
         Student s3 = new Student (100,"Catrina Alex");
+        Student s4= new Student(110,"Popescu Ion");
 
         StudentList.add(s1);
         StudentList.add(s2);
@@ -67,8 +68,8 @@ public class Student implements Comparable <Student>{
 
 
 
-
     }
+
 
 
     }
