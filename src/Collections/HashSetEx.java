@@ -20,6 +20,7 @@ public class HashSetEx {
         Iterator it = myHashSet.iterator();
 
         while(it.hasNext()){
+
             System.out.println(it.next());
         }
 

@@ -1,7 +1,10 @@
 package Collections;
 
+//https://www.youtube.com/watch?v=d3QbptJRln4&list=PLL8woMHwr36HmQfxqqqxns5GexTNmxFqK&index=2
+
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArraysEx {
@@ -14,12 +17,28 @@ public class ArraysEx {
         list_Strings.add("White");
         list_Strings.add("Black");
         list_Strings.add(0,"Yellow");
+        list_Strings.set(2,"White Smoke");
 
-        // print the list
+        // print the list using iterator
+        System.out.println("List's elements using iterator:");
+        Iterator it =  list_Strings.iterator();
+        while(it.hasNext()){
+          Object element=it.next();
+            System.out.println(element);
+        }
+
+
+        // print the list using for loop
         System.out.println("List's elements:");
         for (int i=0;i<=list_Strings.size()-1;i++){
 
                 System.out.println(list_Strings.get(i));
+        }
+
+        // using for each
+        System.out.println("List's elements using for each:");
+        for( String l: list_Strings){
+            System.out.println(l);
         }
 
         // checking if an element is black
@@ -28,9 +47,10 @@ public class ArraysEx {
            System.out.println(list_Strings.get(i)+" having index of:"+i);}
        }
 
+
        //remove the 3rd element from the list
-       System.out.println(list_Strings.get(1));
        list_Strings.remove(3);
+        System.out.println("List without having the 3rd element"+list_Strings);
 
 
        // update the second element

@@ -44,7 +44,8 @@ public class LinkedListEx {
         }
 
         // iterate all elements in a linked list but in reverse order
-
+        // The descendingIterator() method of java.util.LinkedList class is used to return an iterator over the elements in this LinkedList in reverse sequential order.
+        // The elements will be returned in order from last (tail) to first (head).
         System.out.println("Elements of the linkedList in reverse order:");
         Iterator it = newList.descendingIterator();
         while(it.hasNext()){
