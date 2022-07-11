@@ -34,9 +34,8 @@ public class otherEx {
            }
         }
 
-        // how to sort Array elements
 
-        Arrays.sort(al);
+
 
 
 
