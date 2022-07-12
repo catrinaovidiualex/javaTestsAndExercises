@@ -11,5 +11,6 @@ public class Access3 extends Access1 {
         Access1 m1=new Access1();
         System.out.println(m1.status);
          String pt="Yes";
+
     }
 }

@@ -15,7 +15,7 @@ public class TenaryOperaor {
 
         int v1=10;
         int v2=20;
-        int max= v1>=v2 ? v1:v2;
+        int max= v1>v2 ? v1:v2;
         System.out.println("Maximum value is:"+max);
     }
 

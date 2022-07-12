@@ -42,7 +42,13 @@ public class App {
             Person p1 = new Person("John","Smith",333333);
             Person p2 = new Person("John","Smith",333333);
 
+
             System.out.println(p1.equals(p2)); // it will return false because these persons point to different objects;
+
+            //if we put p1=p2 -> it will return true because p2 point to the same object;
+            p1=p2;
+            System.out.println(p1.equals(p2));
+
 
         }
 

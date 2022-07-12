@@ -20,5 +20,7 @@ public class BoxingAndUnboxing {
         }
 
         System.out.println(myIntegerList);
+
+        System.out.println(Integer.valueOf(62));
     }
 }

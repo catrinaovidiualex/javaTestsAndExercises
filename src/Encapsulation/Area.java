@@ -2,12 +2,12 @@ package Encapsulation;
 
 public class Area {
     // fields to calculate area
-    int length; //lungime;
-    int breadth; // latime;
+    private int length; //lungime;
+    private int breadth; // latime;
 
     //constructor to initialize values
 
-    Area(int length, int breadth){
+   public Area(int length, int breadth){
         this.length=length;
         this.breadth=breadth;
     }

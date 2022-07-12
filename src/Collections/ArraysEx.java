@@ -37,7 +37,7 @@ public class ArraysEx {
 
         // using for each
         System.out.println("List's elements using for each:");
-        for( String l: list_Strings){
+        for(String l: list_Strings){
             System.out.println(l);
         }
 

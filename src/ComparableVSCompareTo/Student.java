@@ -62,9 +62,10 @@ public class Student implements Comparable <Student>{
         StudentList.add(s1);
         StudentList.add(s2);
         StudentList.add(s3);
+        StudentList.add(s4);
 
-        Collections.sort(StudentList);
-        System.out.println(StudentList);
+
+        //System.out.println(StudentList);
 
 
 

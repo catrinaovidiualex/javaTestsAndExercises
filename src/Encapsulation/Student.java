@@ -3,8 +3,8 @@ package Encapsulation;
 public class Student {
     //Encapsulation
 
-    String name;
-    int age;
+    private String name;
+    private int age;
 
     //Getters and Setters
 
